@@ -1,0 +1,45 @@
+.parent-box{
+  height: 100px;
+  width: 100px;
+  background-color: #f00;
+  /* margin-top: 100px; */
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  z-index: 3;
+}
+
+.child-box{
+  /* height: 200px;
+  width: 200px; */
+  background-color: #fa0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100px;
+}
+
+.content{
+  position: relative;
+  height: 300px;
+}
+
+.red{
+  background: #000;
+  z-index: 1;
+}
+
+.green{
+  background: #0f0;
+  z-index: 4;
+}
+
+.blue{
+  background: #00f;
+  z-index: 2;
+}
+
+.orange{
+  background: #fa0;
+  z-index: 5;
+}
