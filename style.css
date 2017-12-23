@@ -63,3 +63,56 @@
     background-color: rgba(255,255,0, 0);
   }
 }
+
+.inner2{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.cf::after{
+  content:'';
+  display: block;
+  clear: both;
+}
+.gallery{
+  float:left;
+  width: 30%;
+}
+
+.gallery:nth-child(3n-1){
+  margin: 0 5%;
+}
+
+.image img{
+  display: none;
+  /* width: 100%; */
+}
+
+.gallery:first-child .image{
+  background-image: url('img/ga1.jpg');
+}
+
+.gallery:nth-child(2) .image{
+  background-image: url('img/ga2.jpg');
+}
+
+.gallery:nth-child(3) .image{
+  background-image: url('img/ga3.jpg');
+}
+
+.gallery:nth-child(4) .image{
+  background-image: url('img/ga4.jpg');
+}
+
+.gallery:nth-child(5) .image{
+  background-image: url('img/ga5.jpg');
+}
+
+.gallery:nth-child(6) .image{
+  background-image: url('img/ga6.jpg');
+}
+
+.gallery .image{
+  height: 270px;
+  background: no-repeat center center / cover;
+}
